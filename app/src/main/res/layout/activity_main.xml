@@ -112,24 +112,24 @@
 
     <Button
         android:id="@+id/btnInstagram"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Instagram"
-        app:layout_constraintTop_toBottomOf="@id/tvUmur"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnwa"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp" />
+        android:layout_marginEnd="8dp"
+        android:text="Instagram"
+        app:layout_constraintEnd_toStartOf="@+id/btnwa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUmur" />
 
     <Button
         android:id="@+id/btnwa"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Whatsapp"
-        app:layout_constraintTop_toBottomOf="@id/tvUmur"
-        app:layout_constraintStart_toEndOf="@id/btnInstagram"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginStart="8dp" />
+        android:text="Whatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnInstagram"
+        app:layout_constraintTop_toBottomOf="@id/tvUmur" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
